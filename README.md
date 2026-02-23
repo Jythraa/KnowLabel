@@ -45,7 +45,7 @@ Better user experience
 Intelligent handling of unseen inputs
 
 Preview
-<img src="https://ibb.co/zH40HFym.jpeg">
+<img src="https://ibb.co/zH40HFym">
 
 🏗 System Architecture
 
