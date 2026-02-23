@@ -22,6 +22,36 @@ Implemented NLP preprocessing and feature engineering
 
 Python · Scikit-learn · Pandas · NumPy · NLP · Llama-based LLM
 
+⚙️ How It Works
+
+The application loads a curated dataset of 1,200+ ingredients.
+
+Users enter one or multiple ingredient names in the input field.
+
+When Analyze Ingredients is clicked:
+
+🔎 If the ingredient exists in the dataset:
+The system retrieves stored information and displays its classification (Healthy / Unhealthy).
+
+🤖 If the ingredient is not found:
+The query is automatically routed to a locally running Llama 3.2 model, which generates a contextual health explanation.
+
+This fallback mechanism ensures:
+
+No null responses
+
+Better user experience
+
+Intelligent handling of unseen inputs
+
+#Image
+https://ibb.co/zH40HFym
+
+🏗 System Architecture
+
+Dataset → ML Classification →
+If Not Found → Llama 3.2 (Local) → Generated Explanation → UI Display
+
 💡 Innovation
 
 Unlike traditional classifiers that fail on unseen inputs, KnowLabel intelligently escalates unknown ingredients to an LLM layer, demonstrating creative AI integration and practical AI system design.
