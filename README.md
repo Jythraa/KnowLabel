@@ -37,15 +37,9 @@ The system retrieves stored information and displays its classification (Healthy
 The query is automatically routed to a locally running Llama 3.2 model, which generates a contextual health explanation.
 
 This fallback mechanism ensures:
-
-No null responses
-
-Better user experience
-
-Intelligent handling of unseen inputs
-
-Preview
-<img src="https://ibb.co/zH40HFym">
+->No null responses
+->Better user experience
+->Intelligent handling of unseen inputs
 
 🏗 System Architecture
 
