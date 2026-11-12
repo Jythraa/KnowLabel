@@ -34,7 +34,7 @@ def ask_ollama(prompt, model="llama3.2"):
         return text
 
     except requests.exceptions.ConnectionError:
-        return "❌ Ollama server not running. Please run `ollama serve` first."
+        return "return "ℹ️ This ingredient isn't in the dataset. The Llama 3.2 explanation runs on a local Ollama server, so it's only available when the app is run locally.""
     except Exception as e:
         return f"⚠ Error: {e}"
 
